@@ -17,7 +17,11 @@ public class Driver {
 		MilkyWayPlanet Neptune = new MilkyWayPlanet("Neptune", 17.14, 2531,9.8, 452, 95.32);
 		MilkyWayPlanet Mars = new MilkyWayPlanet("Mars", 0.11, 7456, 6.4,796,49.56);
 	
-	
+		
+		System.out.println("Earth's mass is smaller than Mercury's: "+Earth.isMassSmaller(Mercury));
+		System.out.println("Earth's diameter is greater than Mercury's: "+Earth.isDiameterGreater(Mercury));
+		System.out.println();
+		
 		Planet[] solarSystem = new Planet[9];
 				solarSystem[0]= Earth;
 				solarSystem[1]= Venus;
